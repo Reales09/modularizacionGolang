@@ -1,12 +1,14 @@
 package main
 
-import (
-	"github.com/donvito/hellomod"
-)
+// "github.com/donvito/hellomod"
+
+import "github.com/Reales09/figuras"
 
 func main() {
+	cua := figuras.Cuadrado{Lado: 10}
+	figuras.Medidas(&cua)
 
-	hellomod.SayHello()
+	// hellomod.SayHello()
 	/*
 
 			mensajes.Hola()

@@ -17,6 +17,10 @@ func main() {
 	p1 := models.Persona{}
 	p1.Constructor("Reales", 32)
 
-	fmt.Println(p1)
+	fmt.Println(p1.GetNombre())
+
+	p1.SetNombre("Rectoro")
+
+	fmt.Println(p1.GetNombre())
 
 }
